@@ -87,7 +87,7 @@ Crimes08Theft
 
 
 ```{r}
-ggplot(RideDistances, aes(x=distance,color="red")) + geom_density(adjust = 0.8, alpha= 0.3)
+ggplot( data = dattemp, aes(x = AvgTemp)) + geom_density(adjust = 0.4) + labs(title = "")
 ```
 
 
